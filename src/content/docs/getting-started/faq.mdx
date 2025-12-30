@@ -55,8 +55,8 @@ If you're not on Hyprland, provide more information through a [GitHub issue](htt
 Add these lines to your Hyprland config:
 
 ```conf
-layerrule = blur, fabric.*
-layerrule = ignorezero, fabric.*
+layerrule = blur on, match:namespace fabric
+layerrule = ignore_alpha 0, match:namespace fabric
 ```
 
 ---
